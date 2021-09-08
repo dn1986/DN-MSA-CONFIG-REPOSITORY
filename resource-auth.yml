@@ -1,0 +1,24 @@
+spring:
+  profiles: default
+  
+auth:
+  profile: Profile Default
+  comment: Hello! Auth Default
+
+---
+
+spring:
+  profiles: dev
+
+auth:
+  profile: Profile Dev
+  comment: Hello! Auth Dev
+
+---
+
+spring:
+  profiles: prod
+
+auth:
+  profile: Profile Prod
+  comment: Hello! Auth Prod
